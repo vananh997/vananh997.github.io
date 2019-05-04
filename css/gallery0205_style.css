@@ -1,0 +1,36 @@
+ul li {
+	list-style: none;
+}
+li{
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li:hover{
+	background-color: #f2006361;
+	font-size: 22px;
+	border-radius: 15px;
+	font-style: italic;
+}
+.pattern {
+	display: none;
+	position: absolute;
+}
+li:hover .pattern{
+	display: block;
+	padding-top: 10px;
+}
+/*Kết thúc sidebar*/
+.item img{
+	max-height: 275px;
+	max-width: 275px;
+	float: left;
+	margin: 1%;
+}
+div.item img:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	border: 3px dotted;
+}
