@@ -1,4 +1,4 @@
-ul li {
+﻿ul li {
 	list-style: none;
 }
 li{
@@ -32,5 +32,6 @@ li:hover .pattern{
 div.item img:hover{
 	cursor: pointer;
 	opacity: 0.5;
-	border: 3px dotted;
+	border: 10px dotted;
+color: #f2006361;
 }
