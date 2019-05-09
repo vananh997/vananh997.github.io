@@ -1,43 +1,44 @@
 .heart {
-    position: relative;
-    width: 160px;
-    height: 160px;
-    margin: 120px auto;
-    background-color: pink;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 120px auto;
+  background-color: pink;
+  display: inline-block;
+  animation: heart 1s ease infinite;
+  transform: rotate(45deg);
+  position: absolute; 
+  left: 45%; top: 45%;
+}
+.heart:before,
+.heart:after {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  content: '';
+  border-radius: 100%;
+  background-color: pink;
+
 }
 .heart:before {
-       position: absolute;
-       width: 160px;
-       height: 160px;
-       content: '';
-       border-radius: 50%;
-       background-color: pink;
-       bottom: 0px;
-       left: -80px;
-
+  bottom: 0px;
+  left: -80px;
 }
-.heart:after {
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    content: '';
-    border-radius: 100%;
-    background-color: pink;
-    top: -80px;
-    right:0px;
-
-}
-.heart {
-    transform: rotate(45deg);
-    animation: heart 1s ease infinite;
-	position: relative;
-	transform: translate(-50%,-50%);
+.heart:after{
+  top: -80px;
+  right: 0px;
 }
 @keyframes heart {
-	96% {
-		transform: translate(-50%,-50%) scale(.8,.8)
-	}
-	100% {
-		transform: translate(-50%,-50%) scale(1,1)
-	}
+	0%
+  {
+    transform: scale( 1 )rotate(45deg);    
+  }
+  20%
+  {
+    transform: scale( 1.25 ) rotate(45deg);  
+  }
+   40%
+  {
+    transform: scale( 1.5 ) rotate(45deg);
+  }
 }
