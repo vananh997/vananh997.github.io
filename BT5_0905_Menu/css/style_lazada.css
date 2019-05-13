@@ -60,10 +60,21 @@ li:hover > .menu-sidebar-title {
 	min-width: 100%;
 	left: 100%;
 	background-color: #fefefe;
-	
-	
-
 }
 /*Kết thúc menu cấp 3*/
+i {
+	border: solid #1a9cb7;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin-left: 50px;
+	transform: rotate(-45deg);
+}
+.right{
+	display: none;
+}
+i:hover .right{
+	display: block;
+}
 
 
