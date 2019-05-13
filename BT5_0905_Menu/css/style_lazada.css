@@ -1,5 +1,5 @@
 ﻿#banner img{
-	max-height: 100%;
+	max-height: 100px;
 	min-width: 100%;
 }
 /*sidebar*/
@@ -11,10 +11,12 @@ ul li{
 	padding-bottom: 4px;
 	padding-top: 4px;
 	font-family: system-ui,sans-serif;
+	width: 200px;
 }
 a{
 	text-decoration: none;
 	color: #999;
+
 }
 ul li:hover{
 	background-color: #f2f2f2;
@@ -35,20 +37,21 @@ ul li a:hover{
 	display: none;
 	box-shadow: 1px 1px 3px  #d9d9d9 inset;
 	height: 414px;
+	width: 200px;
 }
 li:hover .sidebar-title{
 	display: block;
 	position: absolute;
 	top: 100px;
-	left: 12%;
-	min-width: 13%;
+	left: 200px;
+	width: 200px;
 	background-color: #fefefe;
 	
 }
 /*Kết thúc menu cấp 2*/
 .menu-sidebar-title{
 	display: none;
-	min-height: 100.5%;
+	height: 100.5%;
 	box-shadow: 1px 1px 5px  #d9d9d9 inset;
 
 }
@@ -62,19 +65,11 @@ li:hover > .menu-sidebar-title {
 	background-color: #fefefe;
 }
 /*Kết thúc menu cấp 3*/
-i {
-	border: solid #1a9cb7;
-	border-width: 0 3px 3px 0;
+ul li:hover::after{
+	border-width: 0 1.5px 1.5px 0;
 	display: inline-block;
 	padding: 3px;
-	margin-left: 50px;
-	transform: rotate(-45deg);
-}
-.right{
-	display: none;
-}
-i:hover .right{
-	display: block;
-}
+	margin-left: 110px;
+	transform: rotate(-45deg);"
 
-
+}
