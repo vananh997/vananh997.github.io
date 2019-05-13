@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li a:hover{
+	background-color: #f2006361;
+	font-size: 22px;
+	border-radius: 15px;
+}
+img:not(.banner){
+	max-width: 744px;
+	margin: 10px;
+}
+.about{
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+}
+.about:hover{
+	cursor: pointer;
+}
