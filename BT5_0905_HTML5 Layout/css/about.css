@@ -79,7 +79,9 @@ footer{
 	background-color: #30292c;
 	height: 100px;
 	bottom: 0;
-	position: absolute;
 	width: 100%;
-	display: block;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	position: fixed;
 }
