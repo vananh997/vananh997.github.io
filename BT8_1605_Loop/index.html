@@ -9,7 +9,7 @@
 	<!-- VD: Cho chuỗi "123" thì kết quả sẽ là "123-123-123-123-123-123" -->
 	<script type="text/javascript">
 		function saoChepChuoi(chuoi){
-			for (var i = 1; i <= 10; i++) {
+			for (let i = 1; i <= 10; i++) {
 				document.write(chuoi + "-");
 			}
 			return chuoi;
@@ -35,8 +35,8 @@
 	<!-- Gợi ý: 1 chuỗi ~ 1 mảng với mỗi phần tử là 1 ký tự trong chuỗi -->
 	<script type="text/javascript">
 		function daoNguocChuoi(chuoi){
-			var x = "";
-			for (var i = chuoi.length - 1; i >= 0; i--) {
+			let x = "";
+			for (let i = chuoi.length - 1; i >= 0; i--) {
 				x += chuoi[i];
 			}
 			return x;
@@ -46,8 +46,8 @@
 	<!-- Bài 4: Cho 1 mảng tên của n học viên. Viết function sắp xếp lại thứ tự học viên theo bảng chữ cái và in ra màn hình danh sách học viên kèm theo số thứ tự ( sử dụng document.write) -->
 	<script type="text/javascript">
 		function danhSach(h){
-			var h = h.sort();
-			for ( var i = 0; i < h.length ; i++){
+			let h = h.sort();
+			for ( let i = 0; i < h.length ; i++){
 				document.write( (i+1) + " " + h[i] + "</br>");
 			}
 			return h;
@@ -60,8 +60,8 @@
 	<!-- VD: 5 % 2 = 1 ( 5 chia 2 dư 1) -->
 	<script type="text/javascript">
 		function soDu(n){
-			var x = [];
-			for (var i in n){
+			let x = [];
+			for (let i in n){
 				x.push(n[i] % 2);
 			}
 			return x;
@@ -73,9 +73,9 @@
 	<div id="chan" style="width: 200px; color: green; float: left;"></div>
 	<div id="le" style="width: 200px; color: red; float: left;"></div>
 	<script type="text/javascript">
-		var string_chan = "";
-		var string_le = "";
-		for (var i = 1; i <= 100 ; i++) {
+		let string_chan = "";
+		let string_le = "";
+		for (let i = 1; i <= 100 ; i++) {
 			if (i % 2 == 0) {
 				string_chan = string_chan + i + "</br>";
 			}
