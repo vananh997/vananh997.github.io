@@ -26,7 +26,7 @@
 	<!-- Bài 2: Viết 1 hàm dùng để tính giai thừa của 1 số. Kiểm tra tham số đầu vào phải là 1 số nguyên >= 0, sau đó tính giai thừa và in ra kết quả.  -->
 	<script type="text/javascript">
 		function tinhGiaiThua(n){
-			if (parseInt(n) == n){
+			if (typeof n == "number" && Number.isInteger(n) && n >= 0){
 				if (n == 0) {
 					return 1;
 				}
@@ -42,15 +42,15 @@
 	<!-- Bài 3: Cho 1 mảng các số bất kỳ. Tạo ra 1 mảng mới chỉ chứa các số chẵn lấy ra từ mảng trên và sắp xếp theo thứ tự giảm dần. -->
 	<script type="text/javascript">
 		function mangSoChan(arr){
-			let newArray = [];
-			let so_du = arr % 2;
-			if (so_du == 0) {
-				newArray.push(arr[i]);
-				return newArray;
+			var newArray = [];
+			for ( i = 0; i <= arr.length; i++){
+				if ( arr[i] % 2 == 0) {
+					newArray.push(arr[i]);
+				}
 			}
-			else{
-				return false;
-			}
+			return newArray.sort(function(a, b){
+				return ( b - a);
+			});
 		}
 	</script>
 
@@ -62,10 +62,10 @@
   	password: "secret",
   	confirm: "secret"
   	Hãy kiểm tra username phải khác rỗng và không được vượt quá 20 ký tự, password phải có độ dài từ 6 đến 32 ký tự, confirm phải giống password.
-	} -->
-	<script type="text/javascript">
-		
-	</script>
+  } -->
+  <script type="text/javascript">
+
+  </script>
 
 
 </body>
