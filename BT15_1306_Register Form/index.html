@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng ký</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <form action="profile.html" method="GET">
+        <table>
+            <h1>ĐĂNG KÝ</h1>
+
+            <tr>
+                <td>
+                    <p><span>*</span>Bắt buộc</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="ho_ten">Họ tên</label></td>
+                <td><input type="text" name="name" id="ho_ten" placeholder="Nhập họ tên từ 5 - 32 kí tự" required><span>*</span></td>
+                <td>
+                    <p id="loi_ho_ten" class="loi">!</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="mail" id="email" placeholder="Nhập email" required><span>*</span></td>
+            </tr>
+
+            <tr>
+                <td><label for="mat_khau">Mật khẩu</label></td>
+                <td><input type="password" name="pass" id="mat_khau" placeholder="Nhập mật khẩu" required><span>*</span></td>
+            </tr>
+
+            <tr>
+                <td><label for="ngay_sinh">Ngày sinh</label></td>
+                <td><input type="date" name="date" id="ngay_sinh"></td>
+            </tr>
+
+            <tr>
+                <td><label for="sdt">Điện thoại</label></td>
+                <td><input type="number" name="sdt" id="sdt" placeholder="Nhập số điện thoại"></td>
+            </tr>
+
+            <tr>
+                <td><label for="gioi_tinh">Giới tính</label></td>
+                <td>
+                    <label class="radio"><input type="radio" name="gioi_tinh" class="gioi_tinh" checked value="1">Nam</label>
+
+
+                    <label class="radio"><input type="radio" name="gioi_tinh" class="gioi_tinh" value="0">Nữ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dia_chi">Địa chỉ:</label></td>
+                <td><textarea id="dia_chi" placeholder="Nhập địa chỉ đầy đủ"></textarea></td><span></span>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" onclick="return kiem_tra()">Đăng ký</button>
+                    <button type="reset">Reset</button>
+                </td>
+
+            </tr>
+
+        </table>
+    </form>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
