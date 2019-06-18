@@ -1,5 +1,5 @@
 * {
-    margin: 8px;
+    margin: 5px;
     box-sizing: border-box;
 }
 
@@ -8,6 +8,7 @@ body {
 }
 
 table {
+    max-width: 1000px;
     background-color: white;
     font-size: 18px;
     border: 1px solid rgb(177, 175, 175);
@@ -18,7 +19,8 @@ table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-span {
+span,
+small {
     color: red;
 }
 
@@ -73,4 +75,9 @@ button:hover {
 
 .loi {
     display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
