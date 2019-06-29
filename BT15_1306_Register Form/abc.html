@@ -66,16 +66,7 @@
     </form>
 
     <script src="jquery-3.4.1.min.js"></script>
-    <script>
-        function myFunction() {
-            let a = document.URL;
-            let b = decodeURIComponent(a);
-            let c = b.replace(/[&?]/g, '<br/>').replace(/[+]/g, ' ').replace(/=/g, ': ');
-            let d = document.URL.split('?')[0];
-            let kq = c.replace(d, '');
-            $("#info").html(kq);
-        }
-    </script>
+    <script src="js/profile.js"></script>
 
 
 </body>
