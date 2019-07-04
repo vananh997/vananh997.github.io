@@ -11,7 +11,8 @@
         "price": 400000,
         "quantity": 3,
         "img": "img2.jpg"
-    } {
+    },
+    {
         "id": 3,
         "name": "Oreo the Cat",
         "price": 450000,
