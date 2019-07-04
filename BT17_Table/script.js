@@ -2,12 +2,12 @@ let items = [];
 
 //Gọi lên ajax lấy giữ liệu 
 $.ajax({
-    url: 'https://ngovansonwft1.github.io/listProduct.JSON',
+    url: 'https://raw.githubusercontent.com/vananh997/vananh997.github.io/master/BT17_Table/items.json',
     type: 'get',
     dataType: 'json',
 }).done(function(data) {
     // Sau khi có dữ liệu thì gán vào biến global products để dùng khi sort
-    products = data;
+    items = data;
 
     // Đổ dữ liệu ra bảng
     renderContent();
