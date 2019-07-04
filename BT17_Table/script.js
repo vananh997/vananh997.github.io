@@ -1,39 +1,20 @@
-let items = [{
-        id: '001',
-        name: 'Mochi the Cat',
-        price: 420000,
-        quantity: 1,
-        img: 'img1.jpg'
-    },
-    {
-        id: '002',
-        name: 'The Nana',
-        price: 400000,
-        quantity: 3,
-        img: 'img2.jpg'
-    },
-    {
-        id: '003',
-        name: 'Oreo the Cat',
-        price: 450000,
-        quantity: 2,
-        img: 'img3.jpg'
-    },
-    {
-        id: '004',
-        name: 'Sliver Cat',
-        price: 230000,
-        quantity: 4,
-        img: 'img4.jpg'
-    },
-    {
-        id: '005',
-        name: 'Piggy ',
-        price: 220000,
-        quantity: 5,
-        img: 'img5.jpg'
-    }
-];
+let items = [];
+
+//Gọi lên ajax lấy giữ liệu 
+$.ajax({
+    url: 'https://ngovansonwft1.github.io/listProduct.JSON',
+    type: 'get',
+    dataType: 'json',
+}).done(function(data) {
+    // Sau khi có dữ liệu thì gán vào biến global products để dùng khi sort
+    products = data;
+
+    // Đổ dữ liệu ra bảng
+    renderContent();
+});
+
+
+
 
 function renderContent() {
     let content = '';
