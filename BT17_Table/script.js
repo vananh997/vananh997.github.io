@@ -8,10 +8,12 @@ $.ajax({
 }).done(function(data) {
     // Sau khi có dữ liệu thì gán vào biến global products để dùng khi sort
     items = data;
+    console.log(data);
 
     // Đổ dữ liệu ra bảng
     renderContent();
 });
+console.log('abc');
 
 
 
