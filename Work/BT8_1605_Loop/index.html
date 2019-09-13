@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- Bài 1: Cho 1 chuỗi số, hãy viết hàm có tác dụng sao chép chuỗi số lên 10 lần, ngăn cách nhau bởi kí tự "-" -->
+
+	<!-- VD: Cho chuỗi "123" thì kết quả sẽ là "123-123-123-123-123-123" -->
+	<script type="text/javascript">
+		function saoChepChuoi(chuoi){
+			for (let i = 1; i <= 10; i++) {
+				document.write(chuoi + "-");
+			}
+			return chuoi;
+		}
+	</script>
+
+	<!-- Bài 2: Cho số nguyên n. Viết hàm tính giai thừa (n!) -->
+
+	<!-- VD: n = 5, kết quả trả về là 5! = 1*2*3*4*5 = 120 -->
+	<script type="text/javascript">
+		function tinhGiaiThua(n){
+			if (n == 0) {
+				return 1;
+			}
+			return n * tinhGiaiThua( n - 1);
+		}
+	</script>
+
+	<!-- Bài 3: Cho 1 chuỗi, viết hàm đảo ngược chuỗi đó -->
+
+	<!-- VD: Cho chuỗi " Hello" kết quả trả về là "olleH" -->
+
+	<!-- Gợi ý: 1 chuỗi ~ 1 mảng với mỗi phần tử là 1 ký tự trong chuỗi -->
+	<script type="text/javascript">
+		function daoNguocChuoi(chuoi){
+			let x = "";
+			for (let i = chuoi.length - 1; i >= 0; i--) {
+				x += chuoi[i];
+			}
+			return x;
+		}
+	</script>
+
+	<!-- Bài 4: Cho 1 mảng tên của n học viên. Viết function sắp xếp lại thứ tự học viên theo bảng chữ cái và in ra màn hình danh sách học viên kèm theo số thứ tự ( sử dụng document.write) -->
+	<script type="text/javascript">
+		function danhSach(h){
+			let h = h.sort();
+			for ( let i = 0; i < h.length ; i++){
+				document.write( (i+1) + " " + h[i] + "</br>");
+			}
+			return h;
+		}
+	</script>
+
+	<!-- Bài 5: Cho 1 mảng các số. Viết function tạo ra 1 mảng mới với các số là số dư tương ứung khi chia các số trong mảng cũ cho 2 -->
+
+	<!-- Gợi ý: Để lấy số dư của 1 số cho 2, ta dùng toán tử % -->
+	<!-- VD: 5 % 2 = 1 ( 5 chia 2 dư 1) -->
+	<script type="text/javascript">
+		function soDu(n){
+			let x = [];
+			for (let i in n){
+				x.push(n[i] % 2);
+			}
+			return x;
+		}
+
+	</script>
+
+	<!-- Bài 6: Chỉ dùng vòng lặp for hoặc while, viêt function in ra màn hình các số từ 1 đến 100 sao cho những giá trị là chẵn sẽ có màu xanh, những giá trị lẻ có màu đỏ -->
+	<div id="chan" style="width: 200px; color: green; float: left;"></div>
+	<div id="le" style="width: 200px; color: red; float: left;"></div>
+	<script type="text/javascript">
+		let string_chan = "";
+		let string_le = "";
+		for (let i = 1; i <= 100 ; i++) {
+			if (i % 2 == 0) {
+				string_chan = string_chan + i + "</br>";
+			}
+			else{
+				string_le = string_le + i + "</br>"
+			}
+		}
+		document.getElementById('chan').innerHTML = string_chan;
+		document.getElementById('le').innerHTML = string_le;
+
+	</script>
+
+
+</body>
+</html>

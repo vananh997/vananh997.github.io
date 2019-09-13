@@ -1,0 +1,651 @@
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Varela Round', sans-serif;
+      color: #1C3436;
+      font-size: 14px;
+  }
+
+  img {
+      max-width: 100%;
+      border-radius: 2px;
+  }
+
+  .content {
+      background: white;
+      -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .clearAll {
+      clear: both;
+  }
+
+
+/*
+  div {
+      border: 1px dotted red;
+  }
+*/
+
+
+  /*----------- NAVIGATION ------- */
+
+  .header.navbar-default {
+      background-color: white;
+      color: #1C3436;
+      border: none;
+      height: 40px;
+  }
+
+  .header .navbar-brand > .brand-img {
+      width: 40px;
+  }
+
+  .header .navbar-brand {
+      padding: 7px 15px;
+  }
+
+  .header.navbar-default .navbar-nav > .active > a {
+      color: #905D4A;
+      background-color: white;
+      border-bottom: 1px solid #905D4A;
+  }
+
+  .header.navbar-default .navbar-nav a:hover {
+      color: #905D4A;
+      border-bottom: 1px solid #905D4A;
+      background-color: white;
+  }
+
+  .header.navbar-default .navbar-nav a:hover .header.navbar-default .navbar-nav a {
+      color: #1C3436;
+  }
+
+  .header.navbar-fixed-top {
+      -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .header .navbar-collapse .navbar-nav .active {
+      padding-top: 0;
+  }
+
+  /* Menu-Dropdown */
+
+  .menu-header.navbar-right .dropdown-menu {
+      min-width: 130px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 0;
+  }
+
+  .menu-header.navbar-right .dropdown-menu > .register {
+      padding-top: 5px;
+  }
+
+  .menu-header.navbar-right .dropdown-menu a {
+      line-height: 30px;
+  }
+
+  .menu-header.navbar-right .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > .open > a:hover {
+      background-color: white;
+  }
+
+  /*----- BANNER------- */
+
+  .banner {
+      background-color: #d2e6de;
+      margin-top: 100px;
+      height: 350px;
+      position: relative;
+      text-align: center;
+  }
+
+  .banner img {
+      max-height: 190px;
+      margin-top: -50px;
+  }
+
+  .intro .fig {
+      text-align: right;
+  }
+
+  .intro .fig img {
+      max-height: 420px;
+      position: relative;
+      top: -120px;
+  }
+
+  .intro .des {
+      text-align: left;
+      position: relative;
+      top: 90px;
+  }
+
+  .line-heading {
+      position: relative;
+      top: -40px;
+      width: 900px;
+      border-width: 1px;
+      border-color: #1c3436;
+  }
+
+  /* -----Section Body----- */
+
+  .content .home {
+      min-height: calc(100vh - 150px);
+      /* background-color: lightgoldenrodyellow; */
+  }
+
+  h2.title a,
+  h2.title {
+      font-family: 'Old Standard TT';
+      font-size: 30px;
+      color: #905D4A;
+  }
+
+  .home .row {
+      text-align: center;
+  }
+
+  .product-featured {
+      position: relative;
+      top: 25px;
+      padding-left: 120px;
+      padding-right: 120px;
+  }
+
+  .product-featured .left {
+      top: -235px;
+  }
+
+  .item1.col-md-3,
+  .item2.col-md-3,
+  .left.col-md-6,
+  .right.col-md-6 {
+      padding-left: 0;
+  }
+
+  product-featured .right.col-md-6 {
+      padding-right: 0;
+
+  }
+
+  .title-info {
+      position: relative;
+      top: -152px;
+  }
+
+  .product-featured .form-group {
+      text-align: center;
+  }
+
+  .product-featured .form-inline input {
+      margin-top: 35px;
+      text-align: center;
+      float: left;
+  }
+
+  .profuct-featured .fom-inline bunnton {
+      float: right;
+  }
+
+  h6 {
+      margin-top: 8%;
+  }
+
+  .follow input.form-control {
+      height: 40px;
+  }
+
+  .follow button.form-follow {
+      width: 100px;
+      background-color: #75A197;
+      color: white;
+      height: 40px;
+  }
+
+  .row .btn .btn-default {
+      border: none;
+  }
+
+  .row.gallery {
+      height: 400px;
+      text-align: center;
+      margin-top: 200px;
+  }
+
+  .gallery .slider {
+      width: 1000px;
+      margin: auto;
+      padding-top: 25px;
+  }
+
+  .gallery .slider img {
+      width: 195px;
+      padding: 10px;
+  }
+
+  .gallery .slider-icon {
+      
+}
+
+
+  /* ------Footer -------*/
+
+  .footer {
+      height: 100px;
+      background-color: #7a899899;
+  }
+
+  .footer .row {
+      position: relative;
+      top: 25%;
+      line-height: 30px;
+  }
+
+  .footer .social {
+      text-align: center;
+  }
+
+  .footer .row a,
+  .footer-copyright,
+  .social .fa {
+      color: white;
+  }
+
+  .footer .social a {
+      position: relative;
+      margin-right: 10px;
+  }
+
+  /*-------- RESPONSIVE----- */
+  /* Mobile */
+
+  @media (min-width: 320px) and (max-width:576px) {
+
+      .header.navbar-default .navbar-nav > .active > a,
+      .header.navbar-default .navbar-nav a:hover {
+          border-bottom: none;
+          color: #75A197;
+      }
+
+      .menu-header.navbar-right .dropdown-menu li a {
+          line-height: 28px;
+      }
+
+      .header .nav .open > a:hover,
+      .header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+          color: #75A197;
+      }
+
+      .header .navbar-collapse,
+      .dropdown-toggle,
+      .dropdown.open {
+          background-color: white;
+      }
+
+      .home.banner {
+          position: relative;
+          top: 15px;
+          height: 250px;
+          text-align: center;
+      }
+
+      .home .banner img {
+          max-width: 350px;
+      }
+
+      .intro .fig {
+          position: relative;
+          height: 300px;
+          text-align: center;
+      }
+
+      .intro .fig img {
+          max-width: 300px;
+          position: relative;
+          top: -70px;
+      }
+
+      .intro .des {
+          position: relative;
+          top: -30px;
+          text-align: center;
+      }
+
+      .des p {
+          font-size: 12px;
+      }
+
+      .line-heading {
+          position: relative;
+          top: -20px;
+          width: 400px;
+          text-align: center;
+      }
+
+      .home {
+          text-align: center;
+      }
+
+      .home .row {
+          text-align: center;
+      }
+
+      .product-featured .title {
+          font-family: 'Old Standard TT';
+          font-size: 22px;
+      }
+
+      .product-featured {
+          position: relative;
+          top: 25px;
+      }
+
+      .left.col-md-6,.right.col-md-6
+      .item2.col-md-3,.item1.col-md-3 {
+          padding-right: 0;
+          padding-bottom: 5px;
+
+      }
+
+      .product-featured img {
+          max-height: 200px;
+      }
+
+      .product-featured .left {
+          position: relative;
+          top: 0;
+      }
+
+      .row .title-info {
+          font-size: 12px;
+          position: relative;
+          top: 40px;
+      }
+
+      .product-featured .title {
+          font-size: 18px;
+      }
+
+      .follow.form-group {
+          position: relative;
+          top: 100px;
+          height: 200px;
+          text-align: justify;
+      }
+
+      .follow.form-group label {
+          font-size: 12px;
+      }
+
+      .follow.form-group input {
+          height: 35px;
+          width: 220px;
+          float: left;
+      }
+
+      .follow.form-group button {
+          height: 35px;
+          float: left;
+          width: 119px
+      }
+
+      .form-inline {
+          padding-left: 30px
+      }
+
+  }
+
+  @media (min-width: 575px) and (max-width:767px) {
+
+      .header.navbar-default .navbar-nav > .active > a,
+      .header.navbar-default .navbar-nav a:hover {
+          border-bottom: none;
+          color: #75A197;
+      }
+
+      .menu-header.navbar-right .dropdown-menu li a {
+          line-height: 28px;
+      }
+
+      .header .nav .open > a:hover,
+      .header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+          color: #75A197;
+      }
+
+      .header .navbar-collapse,
+      .dropdown-toggle,
+      .dropdown.open {
+          background-color: white;
+      }
+
+      .row.bg-banner {
+          position: relative;
+          top: 15px;
+          height: 250px;
+          text-align: center;
+      }
+
+      .bg-banner > img {
+          max-width: 350px;
+      }
+
+      .intro .fig {
+          position: relative;
+          height: 300px;
+          text-align: center;
+      }
+
+      .intro .fig > img {
+          max-width: 300px;
+          position: relative;
+          top: -70px;
+      }
+
+      .intro .des {
+          position: relative;
+          top: -30px;
+          text-align: center;
+      }
+
+      .des p {
+          font-size: 12px;
+      }
+
+      .line-heading {
+          position: relative;
+          top: -20px;
+          width: 400px;
+          text-align: center;
+      }
+
+      .section-content {
+          text-align: center;
+      }
+
+      .section-content > .row {
+          text-align: center;
+      }
+
+      .section-content .title {
+          font-family: 'Old Standard TT';
+          font-size: 22px;
+      }
+
+      .product {
+          position: relative;
+          top: 25px;
+      }
+
+      .col-md-6,
+      .col-md-3 {
+          padding-right: 0;
+          padding-bottom: 5px;
+
+      }
+
+      .productFeatured img {
+          max-height: 200px;
+      }
+
+      .productFeatured .left {
+          position: relative;
+          top: 0;
+      }
+
+      .home .row .title-info {
+          font-size: 12px;
+          position: relative;
+          top: 40px;
+      }
+
+      .home .title {
+          font-size: 18px;
+      }
+
+      .home .form-group {
+          position: relative;
+          top: 100px;
+          height: 200px;
+          text-align: justify;
+      }
+
+      .home .form-group label {
+          font-size: 12px;
+      }
+
+      .home .form-group input {
+          height: 35px;
+          width: 220px;
+          float: left;
+      }
+
+      .home .form-group button {
+          height: 35px;
+          float: left;
+          width: 119px
+      }
+
+      .product .right img {
+          position: relative;
+          top: 5px;
+          max-width: 460px;
+      }
+
+      .product .left {
+          max-width: 460px;
+          top: 10px;
+      }
+
+      .title-info {
+          top: 50px;
+      }
+
+      .form-inline {
+          padding: 0 10px 0 70px
+      }
+
+      .form-inline input {
+          width: 450px;
+
+      }
+
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 991px) {
+      .bg-banner {
+          margin-top: 100px;
+          height: 280px;
+          position: relative;
+          text-align: center;
+      }
+
+      .bg-banner > img {
+          max-width: 380px;
+      }
+
+      .intro .fig {
+          position: relative;
+          height: 220px;
+          text-align: center;
+      }
+
+      .intro .fig > img {
+          max-width: 300px;
+          position: relative;
+          top: -100px;
+      }
+
+      .intro .des {
+          position: relative;
+          top: 10px;
+          text-align: center;
+      }
+
+      .des p {
+          font-size: 12px;
+      }
+
+      .line-heading {
+          position: relative;
+          top: 5px;
+          width: 400px;
+          text-align: center;
+      }
+
+      .section-content > .row {
+          text-align: center;
+      }
+
+      .section-content .title {
+          font-family: 'Old Standard TT';
+          font-size: 25px;
+          color: #905D4A;
+      }
+
+      .product {
+          position: relative;
+          top: 20px;
+      }
+
+      .product img {
+          max-height: 250px;
+      }
+
+      .product .left {
+          position: relative;
+          top: -125px;
+      }
+
+      .product.right {
+          padding-right: 0;
+          padding-left: 0;
+      }
+
+      .row .title-info {
+          position: relative;
+          top: -70px;
+      }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      .product .left {
+          position: relative;
+          top: -180px;
+      }
+
+      .row .title-info {
+          position: relative;
+          top: -110px;
+      }
+  }

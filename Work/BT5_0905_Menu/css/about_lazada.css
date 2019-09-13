@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+#lazada{
+	width: 100%;
+	height: 1000px;
+	font-family: arial;
+
+}
+#banner{
+	height: 10%;
+	width: 100%;
+	background: #1488a2;
+}
+#box{
+	height: 90%;
+	width: 100%;
+	float: left;
+
+}
+#box-sidebar{
+	height: 46%;
+	width: 200px;
+	background-color: #ffffff;
+	font-size: 12px;
+	line-height: 1.15;
+	overflow: hidden;
+	text-transform: capitalize;
+	box-shadow: 1px 1px 3px  #d9d9d9 inset;
+}
+#box-content{
+	height: 54%;
+	width: 86%;
+	background-color: white;
+	float: left;
+}
+button{
+	position: fixed;
+	width: 50px;
+	height: 40px;
+	border-radius: 55px;
+	vertical-align: bottom;
+	box-shadow: 0;
+	border: 0;
+	margin-top: 43%;
+	margin-left: 93%;
+	cursor: pointer;
+}
+/*.fas fa-angle-right{
+	/*position: absolute;*/
+/*	margin-right: 4px;
+    color: #1a9cb7;
+    font-family: lazada!important;
+    font-size: 16px;
+    float: right;
+}*/

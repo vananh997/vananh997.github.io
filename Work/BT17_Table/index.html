@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa9af58e6d.js"></script>
+    <title>List item</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="banner">
+        <a href="https://vananh997.github.io/BT18_Bootstrap/index.html"><img src="img/logo.jpg" class="img-thumbnail"></a>
+    </div>
+
+    <div class="text-body text-center">
+        <h1>List item on stock</h1>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th data-column="name" data-order="asc" onclick="sortColumn(this)">Name <i class="fas fa-sort-up"></i></th>
+                        <th data-column="id" data-order="asc" onclick="sortColumn(this)">ID <i class="fas fa-sort-up"></i></th>
+                        <th data-column="price" data-order="asc" onclick="sortColumn(this)">Price <i class="fas fa-sort-up"></i></th>
+                        <th data-column="quantity" data-order="asc" onclick="sortColumn(this)">Quantity <i class="fas fa-sort-up"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="items">
+                    <tr class="item">
+                        <td></td>
+                        <td class="itemColor"></td>
+                        <td class="itemBackground"></td>
+                        <td class="itemColor"></td>
+                        <td class="itemBackground"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

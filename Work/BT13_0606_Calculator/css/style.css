@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+table{
+	max-width: 500px;
+	max-height: 680px;
+	background-color: #000000;
+	margin: 1% auto;
+
+	
+}
+td:not(#result){
+	width: 100px;
+	height: 80px;
+	padding: 6px;
+
+}
+td > input{
+	width: 100%;
+	height: 100%;
+	background-color: #202020;
+	font-size: 30px;
+	border: 0;
+	font-family: Verdana;
+	color: white;
+}
+.row1 td > input{
+	text-align: center;
+	opacity: 0.5;
+}
+.row td > input{
+	background-color: #a6a6a6;
+}
+.btn{
+	border-radius: 100px;
+}
+.btn_color > input{
+	background-color: #f89212;
+}
+#result{
+	background-color: #000000;
+	text-align: right;
+	font-size: 65px;
+}
+#zero{
+	padding: 16%;
+	text-align: left;
+}
+input:hover:not(#result){
+	cursor: pointer;
+}
