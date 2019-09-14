@@ -1,0 +1,386 @@
+/*-------- RESPONSIVE----- */
+  /* Mobile */
+
+  @media (min-width: 320px) and (max-width:576px) {
+
+      .header.navbar-default .navbar-nav > .active > a,
+      .header.navbar-default .navbar-nav a:hover {
+          border-bottom: none;
+          color: #75A197;
+      }
+
+      .menu-header.navbar-right .dropdown-menu li a {
+          line-height: 28px;
+      }
+
+      .header .nav .open > a:hover,
+      .header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+          color: #75A197;
+      }
+
+      .header .navbar-collapse,
+      .dropdown-toggle,
+      .dropdown.open {
+          background-color: white;
+      }
+
+      .home.banner {
+          position: relative;
+          top: 15px;
+          height: 250px;
+          text-align: center;
+      }
+
+      .home .banner img {
+          max-width: 350px;
+      }
+
+      .intro .fig {
+          position: relative;
+          height: 300px;
+          text-align: center;
+      }
+
+      .intro .fig img {
+          max-width: 300px;
+          position: relative;
+          top: -70px;
+      }
+
+      .intro .des {
+          position: relative;
+          top: -30px;
+          text-align: center;
+      }
+
+      .des p {
+          font-size: 12px;
+      }
+
+      .line-heading {
+          position: relative;
+          top: -20px;
+          width: 400px;
+          text-align: center;
+      }
+
+      .home {
+          text-align: center;
+      }
+
+      .home .row {
+          text-align: center;
+      }
+
+      .product-featured .title {
+          font-family: 'Old Standard TT';
+          font-size: 22px;
+      }
+
+      .product-featured {
+          position: relative;
+          top: 25px;
+      }
+
+      .left.col-md-6,
+      .right.col-md-6 .item2.col-md-3,
+      .item1.col-md-3 {
+          padding-right: 0;
+          padding-bottom: 5px;
+
+      }
+
+      .product-featured img {
+          max-height: 200px;
+      }
+
+      .product-featured .left {
+          position: relative;
+          top: 0;
+      }
+
+      .row .title-info {
+          font-size: 12px;
+          position: relative;
+          top: 40px;
+      }
+
+      .product-featured .title {
+          font-size: 18px;
+      }
+
+      .follow.form-group {
+          position: relative;
+          top: 100px;
+          height: 200px;
+          text-align: justify;
+      }
+
+      .follow.form-group label {
+          font-size: 12px;
+      }
+
+      .follow.form-group input {
+          height: 35px;
+          width: 220px;
+          float: left;
+      }
+
+      .follow.form-group button {
+          height: 35px;
+          float: left;
+          width: 119px
+      }
+
+      .form-inline {
+          padding-left: 30px
+      }
+
+  }
+
+  @media (min-width: 575px) and (max-width:767px) {
+
+      .header.navbar-default .navbar-nav > .active > a,
+      .header.navbar-default .navbar-nav a:hover {
+          border-bottom: none;
+          color: #75A197;
+      }
+
+      .menu-header.navbar-right .dropdown-menu li a {
+          line-height: 28px;
+      }
+
+      .header .nav .open > a:hover,
+      .header .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+          color: #75A197;
+      }
+
+      .header .navbar-collapse,
+      .dropdown-toggle,
+      .dropdown.open {
+          background-color: white;
+      }
+
+      .row.bg-banner {
+          position: relative;
+          top: 15px;
+          height: 250px;
+          text-align: center;
+      }
+
+      .bg-banner > img {
+          max-width: 350px;
+      }
+
+      .intro .fig {
+          position: relative;
+          height: 300px;
+          text-align: center;
+      }
+
+      .intro .fig > img {
+          max-width: 300px;
+          position: relative;
+          top: -70px;
+      }
+
+      .intro .des {
+          position: relative;
+          top: -30px;
+          text-align: center;
+      }
+
+      .des p {
+          font-size: 12px;
+      }
+
+      .line-heading {
+          position: relative;
+          top: -20px;
+          width: 400px;
+          text-align: center;
+      }
+
+      .section-content {
+          text-align: center;
+      }
+
+      .section-content > .row {
+          text-align: center;
+      }
+
+      .section-content .title {
+          font-family: 'Old Standard TT';
+          font-size: 22px;
+      }
+
+      .product {
+          position: relative;
+          top: 25px;
+      }
+
+      .col-md-6,
+      .col-md-3 {
+          padding-right: 0;
+          padding-bottom: 5px;
+
+      }
+
+      .productFeatured img {
+          max-height: 200px;
+      }
+
+      .productFeatured .left {
+          position: relative;
+          top: 0;
+      }
+
+      .home .row .title-info {
+          font-size: 12px;
+          position: relative;
+          top: 40px;
+      }
+
+      .home .title {
+          font-size: 18px;
+      }
+
+      .home .form-group {
+          position: relative;
+          top: 100px;
+          height: 200px;
+          text-align: justify;
+      }
+
+      .home .form-group label {
+          font-size: 12px;
+      }
+
+      .home .form-group input {
+          height: 35px;
+          width: 220px;
+          float: left;
+      }
+
+      .home .form-group button {
+          height: 35px;
+          float: left;
+          width: 119px
+      }
+
+      .product .right img {
+          position: relative;
+          top: 5px;
+          max-width: 460px;
+      }
+
+      .product .left {
+          max-width: 460px;
+          top: 10px;
+      }
+
+      .title-info {
+          top: 50px;
+      }
+
+      .form-inline {
+          padding: 0 10px 0 70px
+      }
+
+      .form-inline input {
+          width: 450px;
+
+      }
+
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 991px) {
+      .bg-banner {
+          margin-top: 100px;
+          height: 280px;
+          position: relative;
+          text-align: center;
+      }
+
+      .bg-banner > img {
+          max-width: 380px;
+      }
+
+      .intro .fig {
+          position: relative;
+          height: 220px;
+          text-align: center;
+      }
+
+      .intro .fig > img {
+          max-width: 300px;
+          position: relative;
+          top: -100px;
+      }
+
+      .intro .des {
+          position: relative;
+          top: 10px;
+          text-align: center;
+      }
+
+      .des p {
+          font-size: 12px;
+      }
+
+      .line-heading {
+          position: relative;
+          top: 5px;
+          width: 400px;
+          text-align: center;
+      }
+
+      .section-content > .row {
+          text-align: center;
+      }
+
+      .section-content .title {
+          font-family: 'Old Standard TT';
+          font-size: 25px;
+          color: #905D4A;
+      }
+
+      .product {
+          position: relative;
+          top: 20px;
+      }
+
+      .product img {
+          max-height: 250px;
+      }
+
+      .product .left {
+          position: relative;
+          top: -125px;
+      }
+
+      .product.right {
+          padding-right: 0;
+          padding-left: 0;
+      }
+
+      .row .title-info {
+          position: relative;
+          top: -70px;
+      }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      .product .left {
+          position: relative;
+          top: -180px;
+      }
+
+      .row .title-info {
+          position: relative;
+          top: -110px;
+      }
+  }
