@@ -19,6 +19,10 @@
       border-radius: 1px;
   }
 
+  button a {
+      color: white;
+  }
+
 
   /*
   .content {
@@ -39,15 +43,9 @@
       /*       background-color: lightgoldenrodyellow; */
   }
 
-
-  /*
-  div {
-      border: 1px dotted red;
+  input {
+      border: none;
   }
-*/
-
-
-
 
   /*----------- NAVIGATION ------- */
 
@@ -115,6 +113,10 @@
       background-color: white;
   }
 
+  .menu-header navbar-right a {
+      display: inline-block;
+  }
+
   .title,
   .title a {
       font-family: 'Old Standard TT';
@@ -127,6 +129,12 @@
       text-align: center;
   }
 
+  .img-account-navbar {
+      width: 20px;
+      border-radius: 50%;
+  }
+
+
   /*-------------- BANNER------- */
 
   .banner {
@@ -136,6 +144,7 @@
       position: relative;
       text-align: center;
   }
+
 
   /* ----------------------LAYOUT HOME----- */
   .home .banner img {
@@ -224,19 +233,19 @@
       border: none;
   }
 
-  .home .row.gallery {
+  .home .gallery {
       height: 350px;
       text-align: center;
       margin-top: 200px;
   }
 
-  .gallery .slider {
+  .home .gallery .slider {
       width: 1000px;
       margin: auto;
       padding-top: 25px;
   }
 
-  .gallery .slider-gallery img {
+  .home .gallery .slider-gallery img {
       width: 195px;
       padding: 10px;
   }
@@ -291,6 +300,7 @@
   .link {
       color: #75A197;
   }
+
 
   /*---------------------LAYOUT DETAIL-PRODUCT-----*/
   .detail-product .banner {
@@ -358,6 +368,7 @@
       padding-bottom: 50px;
   }
 
+
   /*-----------LAYOUT REGISTER---------*/
   .register {
       margin-top: 120px;
@@ -400,6 +411,7 @@
       padding-top: 10px;
   }
 
+
   /*-------------LAYOUT LOG-IN-----------*/
 
   .log-in {
@@ -433,6 +445,7 @@
       padding-right: 0;
   }
 
+
   /*--------- LAYOUT CHECK-OUT SUCCESS------*/
   .checkout-success {
       padding-top: 100px;
@@ -453,15 +466,12 @@
       margin-top: 50px;
   }
 
+
   /*-----------LAYOUT PROFILE---------*/
-  .img-account-navbar {
-      width: 20px;
-      border-radius: 50%;
-}
 
   .profile {
       padding-top: 60px;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
   }
 
   .profile .form-profile {
@@ -483,10 +493,363 @@
       padding-top: 25px;
   }
 
+  .profile .button-profile a {
+      color: white;
+  }
+
   .profile .button-profile > button:nth-child(1) {
       background: #905D4A;
       margin-right: 50px;
   }
+
+
+  /*------------LAYOUT INFO-ORDER------------*/
+  .info-order {
+      padding-top: 60px;
+      padding-bottom: 30px;
+  }
+
+  .info-order .img-order {
+      padding-right: 0;
+      margin-top: 20px;
+  }
+
+  .info-order .form-order {
+      margin-top: 50px;
+      padding: 15px 20px 15px 12px;
+      background: #f5ebe4;
+  }
+
+  .info-order .order-form p {
+      color: #1c343682;
+  }
+
+  .info-order .bc-order {
+      margin-left: 20px;
+  }
+
+  .info-order .bc-order > li:nth-child(3) {
+      color: #905D4A;
+  }
+
+  .info-order .button-order {
+      margin-top: 15px;
+  }
+
+  .info-order .button-order a {
+      color: white;
+  }
+
+  .info-order .button-order > button:nth-child(1) {
+      background: #905D4A;
+      margin-right: 50px;
+  }
+
+
+  /*--------LAYOUT PAYMENT---------*/
+  .payment {
+      padding-top: 70px;
+  }
+
+  .payment .bc-payment li:nth-child(2) {
+      color: #905D4A;
+  }
+
+  .payment .payment-info {
+      background: #d2e6de;
+      padding: 20px 30px;
+      margin-top: 30px;
+  }
+
+  .payment .payment-form label {
+      padding-right: 0;
+      padding-left: 0;
+  }
+
+  .payment .button-form {
+      margin-left: 70px;
+      margin-top: 20px;
+  }
+
+  .payment .payment-list {
+      margin-top: 50px;
+      border: 1px solid #905D4A;
+      border-radius: 2px;
+      padding: 80px 50px;
+      border-left: none;
+
+  }
+
+  .payment .payment-list .list {
+      margin-bottom: 30px;
+  }
+
+  .payment .payment-list .list div:nth-child(1) {
+      width: 110px;
+  }
+
+  .payment .payment-list .list div:nth-child(4) {
+      color: #905D4A;
+  }
+
+
+  /*---------LAYOUT CONTACT--------*/
+  .contact .banner {
+      height: 400px;
+      margin-top: 80px;
+      background-image: url('../img/banner-home.png');
+      background-size: cover;
+  }
+
+  .contact .img-contact {
+      width: 290px;
+      padding: 0;
+  }
+
+  .contact .intro {
+      margin-top: 50px;
+      margin-left: 50px;
+      text-align: right;
+      background: #d2e6de;
+      margin-bottom: 20px;
+  }
+
+  .contact .intro img {
+      position: relative;
+      top: 60px;
+      left: 0;
+  }
+
+  .contact h5 {
+      text-align: left;
+      padding-top: 20px;
+      padding-bottom: 8px;
+      color: #7D9A93;
+      border-bottom: 1px solid #905D4A;
+  }
+
+  .contact .intro-contact {
+      text-align: left;
+      line-height: 1.75;
+  }
+
+  .contact .intro-contact p {
+      margin-bottom: 20px;
+  }
+
+  .contact .phone {
+      margin-top: 70px;
+      margin-right: 50px;
+      margin-bottom: 20px;
+      background: #f5ebe4;
+      height: 200px;
+  }
+
+  .contact .img-phone {
+      position: relative;
+      height: 300px;
+      top: -30px;
+      left: 90px;
+  }
+
+  .contact .phone-contact {
+      padding-left: 30px;
+      text-align: left;
+  }
+
+
+  /*------- LAYOUT CART-------*/
+  .cart {
+      padding-top: 80px;
+  }
+
+  .cart .title {
+      margin-bottom: 30px;
+  }
+
+  .cart .item {
+      margin-top: 30px;
+      align-items: center;
+      display: flex;
+      border-bottom: 1px solid #905D4A;
+      padding-bottom: 30px;
+      text-align: center;
+  }
+
+  .cart .item i:hover {
+      color: #905D4A;
+      cursor: pointer;
+  }
+
+  .cart .item div:nth-child(1) {
+      color: #d2e6de;
+  }
+
+  .cart .item div:nth-child(5) {
+      color: #905D4A;
+  }
+
+  .cart .item div:nth-child(3) {
+      text-align: left;
+  }
+
+  .cart .item input {
+      width: 70px;
+      height: 40px;
+      text-align: center;
+
+  }
+
+  .cart .item img {
+      width: 100px;
+  }
+
+  .cart .total-cart {
+      padding-top: 30px;
+  }
+
+  .cart .total-cart div:nth-child(3) {
+      color: #905D4A;
+  }
+
+  .cart .total-cart button {
+      margin-top: 10px;
+
+  }
+
+  /*--------LAYOUT GALLERY-------*/
+
+  .gallery {
+      text-align: center;
+  }
+
+  .gallery .banner {
+      height: 400px;
+      margin-top: 80px;
+      background-image: url('../img/banner-gallery.jpg');
+      background-size: cover;
+  }
+
+  .gallery .heading-img {
+      margin-left: 120px;
+      margin-right: 120px;
+      background: #f5ebe4;
+      margin-top: 200px;
+      height: 400px;
+
+  }
+
+  .gallery .heading-img img {
+      width: 80%;
+      position: relative;
+      top: -130px;
+
+  }
+
+  .gallery .note-gallery {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-family: 'Varela Round', sans-serif;
+      color: #1C3436;
+  }
+
+  .gallery .slider-gallery {
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+  .gallery .slider-gallery img {
+      padding: 0 20px;
+  }
+
+  .gallery .slick-next::before,
+  .slick-prev::before {
+      color: #905D4A;
+  }
+
+  .gallery .gallery-list {
+      border-bottom: 1px solid #905D4A;
+      border-top: 1px solid #905D4A;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      margin: 0 120px;
+  }
+
+  .gallery .gallery-sub {
+      margin-bottom: 80px;
+      background: #d2e6de;
+      margin-top: 50px;
+  }
+
+  .gallery .sub-form {
+      width: 500px;
+      margin-left: 220px;
+      padding-top: 50px;
+  }
+
+  .gallery .sub-form .form-follow {
+      width: 100px;
+      background-color: #75A197;
+      color: white;
+      height: 40px;
+  }
+
+  .gallery .sub-form input {
+      height: 40px;
+      border: none;
+  }
+
+  .gallery .sub-img {
+      width: 200px;
+      padding-right: 0;
+  }
+
+  /*---------PRODUCT----------*/
+  .product .banner {
+      height: 400px;
+      margin-top: 80px;
+      background-image: url('../img/banner-product.jpg');
+      background-size: cover;
+  }
+
+  .product .filter {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+  }
+
+  .product .filter-group {
+      padding: 0;
+  }
+
+  .product .filter-select {
+      background: #d2e6de;
+      margin: 5px;
+  }
+
+  .product .control-label {
+      padding: 12px;
+  }
+
+  .product .item {
+      padding: 0 50px;
+      margin-bottom: 30px;
+  }
+
+  .product .item-name > a {
+      font-family: 'Old Standard TT';
+      color: #905D4A;
+      text-align: center;
+  }
+
+  .product .item-page {
+      margin: 50px;
+  }
+
+  .product .item-page li {
+      padding: 5px;
+  }
+
 
   /* ---------------------Footer -------*/
 

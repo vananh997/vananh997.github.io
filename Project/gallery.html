@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap&subset=vietnamese " rel="stylesheet ">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i&display=swap&subset=vietnamese " rel="stylesheet ">
+    <link href="font/slick.ttf">
+    <link href="font/slick.woff">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css " rel="stylesheet " integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN " crossorigin="anonymous ">
+    <link rel="stylesheet " href="css/global.css ">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top header ">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png " class="brand-img "></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Trang chủ <span class="sr-only">(current)</span></a></li>
+                    <li><a href="product.html">Sản phẩm</a></li>
+                    <li class="active"><a href="gallery.html">Thư viện</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right menu-header">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-user-o " aria-hidden="true "></i> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="log-in.html">Đăng nhập</a></li>
+                            <li><a href="register.html">Đăng ký</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cart.html"><i class="fa fa-shopping-basket" aria-hidden="true "></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!----- CONTENT------>
+    <div class="container content gallery">
+
+        <div class="row banner"></div>
+
+        <div class="row" style="margin-top: 10px">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li>Thư viện</li>
+            </ul>
+        </div>
+        <h2 class="title">Thư viện</h2>
+        <div class="row heading-img"><img src="img/heading-gallery.jpg" alt="Totoro"></div>
+
+        <div class="row title">
+            <h5 class="note-gallery">“TÔI ĐANG NGHĨ, KHÔNG BIẾT NÊN CHO CHÚ MÈO CỦA MÌNH MẶC CHIẾC VÁY MÀU GÌ.... “ </h5>
+        </div>
+
+        <div class="row gallery-list">
+            <div class="slider slider-gallery">
+
+                <div><img src="img/gallery4.jpg"></div>
+                <div><img src="img/gallery3.jpg"></div>
+                <div><img src="img/gallery3.jpg"></div>
+                <div><img src="img/gallery4.jpg"></div>
+                <div><img src="img/gallery5.jpg"></div>
+                <div><img src="img/gallery5.jpg"></div>
+                <div><img src="img/gallery5.jpg"></div>
+            </div>
+            <div class="slider slider-gallery">
+
+                <div><img src="img/gallery4.jpg"></div>
+                <div><img src="img/gallery3.jpg"></div>
+                <div><img src="img/gallery3.jpg"></div>
+                <div><img src="img/gallery4.jpg"></div>
+                <div><img src="img/gallery5.jpg"></div>
+                <div><img src="img/gallery5.jpg"></div>
+                <div><img src="img/gallery5.jpg"></div>
+            </div>
+        </div>
+        <div class="row gallery-sub container">
+            <form class="col-md-11 sub-form form-inline">
+                <h6>Để nhận thông báo về bộ sưu tập mới, vui lòng điền email vào ô dưới</h6>
+                <input type="email" class="form-control " id="follow" placeholder="Điền email vào đây...">
+                <button type="submit" class="btn btn-default form-follow">Gửi</button>
+            </form>
+            <img src="img/submit-form.jpg" class="col-md-1 sub-img">
+        </div>
+    </div>
+    <footer class=" footer page-footer container-fluid">
+        <!-- Social -->
+        <div class="row social">
+            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <!-- Copyright -->
+        <div class="row footer-copyright text-center py-3 ">© 2019 Bản quyền thuộc
+            <a href="https://mdbootstrap.com/education/bootstrap/"> Conngauuhandmade </a>
+        </div>
+        <!-- Copyright -->
+
+        <!-- Footer -->
+    </footer>
+
+    <script type="text/javascript">
+        $('.slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            dots: true,
+            infinite: true,
+            cssEase: 'linear'
+        });
+    </script>
+
+
+</body>
+
+</html>

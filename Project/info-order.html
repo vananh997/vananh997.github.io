@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register</title>
+    <title>Info-order</title>
 
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap&subset=vietnamese " rel="stylesheet ">
@@ -58,7 +58,7 @@
                 <ul class="nav navbar-nav navbar-right menu-header">
 
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <img src="img/submit-form.jpg" alt="Account" class="img-account-navbar">
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -67,7 +67,7 @@
                             <li><a href="#">Đăng xuất</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><i class="fa fa-shopping-basket " aria-hidden="true "></i></a></li>
+                   <li><a href="cart.html"><i class="fa fa-shopping-basket" aria-hidden="true "></i></a></li>
                 </ul>
             </div>
 
@@ -77,60 +77,55 @@
 
     <!----- CONTENT------>
     <div class="container content">
-        <div class="profile">
-            <h2 class="title">Thông tin tài khoản</h2>
-            <div class="col-md-6 form-profile">
-                <ul class="breadcrumb bc-profile">
+        <div class="info-order">
+            <h2 class="title">Thông tin đơn hàng</h2>
+            <div class="col-md-6 img-order">
+                <img src="img/profile.jpg">
+            </div>
+            <div class="col-md-6 form-order">
+                <ul class="breadcrumb bc-order">
                     <li>Tài khoản</li>
-                    <li>Thông tin tài khoản</li>
+                    <li>Thông tin đơn hàng</li>
+                    <li>#COGA192</li>
                 </ul>
-                <form class="form-horizontal profile-form">
+                <form class="form-horizontal order-form">
                     <div class="form-group ">
-                        <label class="col-sm-2 control-label" requirment>Họ tên</label>
+                        <label class="col-sm-2 control-label">Mã ĐH</label>
                         <div class="col-sm-10">
-                            <input type="name" class="form-control text" id="inputPhone" placeholder="Vũ Vân Anh">
+                            <p class="form-control-static">#COGA192</p>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-2 control-label" required>Email</label>
+                        <label class="col-sm-2 control-label">Ngày đặt</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static">vananhvu197@gmail.com</p>
+                            <p class="form-control-static">15/09/2019</p>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputPhone" class="col-sm-2 control-label" required>SĐT</label>
+                        <label class="col-sm-2 control-label" required>SĐT</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control text" id="inputPhone" placeholder="034-293-5511">
+                            <p class="form-control-static">034-293-5511</p>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputAddress" class="col-sm-2 control-label" required>Địa chỉ</label>
+                        <label class="col-sm-2 control-label">Địa chỉ</label>
                         <div class="col-sm-10">
-                            <textarea class="form-control" id="inputAddress">Thanh Xuân, Hà Nội</textarea>
+                            <p class="form-control-static">Thanh Xuân, Hà Nội</p>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputPhone" class="col-sm-2 control-label" required>SĐT</label>
+                        <label for="inputPhone" class="col-sm-2 control-label" required>Notice</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control text" id="inputPhone" placeholder="034-293-5511">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputBirthday" class="col-sm-2 control-label" required>Sinh nhật</label>
-                        <div class="col-sm-10">
-                            <input type="date" class="form-control text" id="inputBirthday ">
+                            <p class="form-control-static"><i>Đã giao cho đơn vị vận chuyển</i></p>
                         </div>
                     </div>
                     <div class="form-group button-c">
-                        <div class="col-sm-offset-2 col-sm-10 button-profile">
-                            <button type="submit" class="btn btn-default button-form">Cập nhật thông tin</button>
-                            <button type="submit" class="btn btn-default button-form">Thông tin đơn hàng</button>
+                        <div class="col-sm-offset-2 col-sm-10 button-order">
+                            <button class="btn btn-default button-form">Đơn hàng khác</button>
+                           <button class="btn btn-default button-form"><a href="index.html">Trang chủ</a></button>
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="col-md-6 img-profile">
-                <img src="img/gallery4.jpg">
             </div>
         </div>
     </div>
