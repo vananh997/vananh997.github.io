@@ -1,9 +1,5 @@
-/*-------- RESPONSIVE----- */
-/* Mobile */
+@media (max-width: 768px) {
 
-@media (min-width: 320px) and (max-width:576px) {
-
-    /*======NAVBAR*/
     .header.navbar-default .navbar-nav > .active > a,
     .header.navbar-default .navbar-nav a:hover {
         border-bottom: none;
@@ -26,83 +22,437 @@
         background-color: white;
     }
 
-
-    /*=========LAYOUT HOME*/
-    .home .banner {
-        position: relative;
-        top: 15px;
-        height: 250px;
+    /*========== LAYOUT HOME=========*/
+    .home .intro .fig,
+    .home .intro .des {
         text-align: center;
     }
 
-    .home .banner img {
-        max-width: 301px;
-    }
-
-    .home .intro .fig {
-        height: 90px;
-        text-align: center;
-    }
-
-    .home .intro .des p {
-        font-size: 12px;
-        top: -10px;
-    }
-
-    .home .intro:after {
-        margin-top: 120px;
+    .home .intro .des {
+        top: -90px;
     }
 
     .home .content {
-        margin-top: 20px;
+        margin: 0;
     }
 
-    .home .title {
-        font-size: 16px;
+    .home .product div {
+        padding-right: 0;
+        padding-left: 0;
     }
 
-    /*=========LAYOUT PRODUCT*/
-    /*=========LAYOUT GALLERY*/
-    /*=========LAYOUT DETAIL-PRODUCT*/
-    /*=========LAYOUT LOG_IN*/
-    /*=========LAYOUT REGISTER*/
-    /*=========LAYOUT CHECKOUT*/
-    /*=========LAYOUT PAYMENT*/
-    /*=========LAYOUT CHECKOUT NOTI*/
-    /*=========LAYOUT CONTACT*/
-    /*=========LAYOUT PROFILE*/
-    /*=========LAYOUT INFO-ORDER*/
+    .home .product .item2 {
+        top: 25px;
+    }
 
+    .home .product .right {
+        width: 502px;
+        top: 50px;
+    }
 
+    .home .product .left {
+        width: 502px;
+        top: 75px;
+    }
 
+    .home .title-info {
+        top: 130px;
+        margin: 0 90px;
+    }
+
+    .home .sub-form {
+        margin: 0 10px;
+        position: relative;
+        top: 200px;
+    }
+
+    .home .sub-form .form-inline {
+        margin-left: 10%;
+    }
+
+    .home .sub-form input {
+        width: 410px;
+        float: left;
+    }
+
+    .home .sub-form button {
+        width: 150px;
+        float: left;
+        padding: 0;
+    }
+
+    .home .gallery {
+        position: relative;
+        top: 50px;
+        margin-bottom: 160px;
+    }
+
+    .home .gallery .slide-gallery {
+        display: none;
+    }
+
+    .home .gallery .slide-mobile {
+        display: block;
+        margin: 0 50px;
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+    .home .gallery .slide-mobile a {
+        padding: 0 50px;
+    }
+
+    .home .gallery .slide-mobile img {
+        padding: 5px;
+    }
+
+    /*===========LAYOUT PRODUCT======*/
+    .product .item {
+        padding-right: 0;
+        margin: 0;
+    }
+
+    /*=========LAYOUT GALLERY========*/
+    .gallery .heading-img {
+        margin: 0;
+        margin-top: 200px;
+        height: 340px;
+    }
+
+    .gallery .gallery-list {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .gallery .slider-gallery {
+        display: none;
+    }
+
+    .gallery .slide-gallery-mobile,
+    .gallery .slide-gallery-mobile img {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .gallery .sub-form,
+    .gallery .sub-img {
+        display: none;
+    }
+
+    .gallery .sub-form-mobile {
+        margin: 20px;
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .gallery .sub-form-mobile .form-inline {
+        padding: 15px 0;
+        margin-left: 10%;
+    }
+
+    .gallery .sub-form-mobile input {
+        width: 410px;
+        float: left;
+    }
+
+    .gallery .sub-form-mobile .form-follow {
+        width: 150px;
+        float: left;
+        padding: 0;
+        background-color: #75A197;
+        color: white;
+        height: 34px;
+    }
+
+    /*========LAYOUT CONTACT=====*/
+    .contact .img-phone,
+    .contact .img-contact {
+        display: none;
+    }
+
+    .contact .banner {
+        height: 210px;
+        margin-top: 0;
+    }
+
+    .contact .intro {
+        margin: 30px 20px;
+    }
+
+    .contact .phone {
+        margin: 0 20px;
+    }
+
+    /*=========LAYOUT LOGIN=====*/
+    .log-in .img-login {
+        display: none;
+    }
+
+    .log-in .title-form {
+        margin: 0;
+    }
+
+    .log-in button {
+        float: right;
+    }
+
+    /*=========LAYOUT REGISTER========*/
+    .register {
+        margin: 0;
+        padding-top: 80px;
+    }
+
+    .register .img-reg {
+        display: none;
+    }
+
+    .register .form-reg {
+        padding: 0 30px;
+        padding-bottom: 30px;
+    }
+
+    .register .login-form {
+        padding: 0 17px;
+    }
+
+    .register button {
+        float: right;
+    }
+
+    /*=========LAYOUT PAYMENT=====*/
+    .payment .payment-list {
+        border: none;
+        margin: 0 20px;
+    }
+
+    .payment button {
+        float: right;
+    }
+
+    /*========LAYOUT CHECKOUT-SUCCESS=====*/
+    .checkout-success {
+        padding: 100px 0;
+    }
+
+    /*========LAYOUT INFO-ORDER=========*/
+    .info-order .button-order {
+        float: right;
+    }
+
+    /*=======LAYOUT PROFILE========*/
+    .profile .button-profile {
+        float: right;
+    }
+
+    /*======LAYOUT DETAIL-PRODUCT=====*/
+    .detai-product .img-max {
+        padding: 0;
+    }
+
+    .detail-product .main {
+        padding: 0 50px;
+    }
+
+    .detail-product .main .img-max {
+        left: 60px;
+    }
+
+    .detail-product .info-detail .price {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .detail-product .info-detail .info {
+        height: 250px;
+    }
+
+    .detail-product .info-detail button {
+        float: right;
+    }
+
+    .detail-product .more-prod {
+        height: 450px;
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+
+    .detail-product .slider-gallery {
+        display: none;
+    }
 }
 
-@media (min-width: 575px) and (max-width:767px) {
-    /*=========LAYOUT HOME*/
-    /*=========LAYOUT PRODUCT*/
-    /*=========LAYOUT GALLERY*/
-    /*=========LAYOUT DETAIL-PRODUCT*/
-    /*=========LAYOUT LOG_IN*/
-    /*=========LAYOUT REGISTER*/
-    /*=========LAYOUT CHECKOUT*/
-    /*=========LAYOUT PAYMENT*/
-    /*=========LAYOUT CHECKOUT NOTI*/
-    /*=========LAYOUT CONTACT*/
-    /*=========LAYOUT PROFILE*/
-    /*=========LAYOUT INFO-ORDER*/
+@media (max-width: 992px) {
+
+    /*====LAYOUT HOME=====*/
+    .home .content {
+        margin: 0;
+    }
+
+    .home .product .item2,
+    .home .product .item1 {
+        padding-right: 0;
+    }
+
+    .home .product {
+        padding: 10px 100px;
+    }
+
+    .home .product .item1 {
+        padding-right: 10px;
+    }
+
+    .home .product .item2 {
+        padding-left: 10px;
+    }
+
+    .home .product .right {
+        top: 15px;
+    }
+
+    .home .product .left {
+        padding: 0;
+        top: 30px;
+
+    }
+
+    .home .title-info {
+        position: relative;
+        top: 15px;
+        padding: 50px;
+        line-height: 25px;
+    }
+
+    .home .sub-form {
+        position: relative;
+        top: 20px;
+    }
+
+    .home .gallery {
+        margin-top: 100px;
+        padding: 0 30px;
+        height: 300px;
+    }
+
+    .home .slide-gallery {
+        border: none;
+        padding-bottom: 0;
+    }
+
+    /*=======LAYOUT DETAIL-PRODUCT=====*/
+    .detail-product .main .img-max {
+        left: 65px;
+    }
+
+    .detail-product .info,
+    .detail-product .price {
+        text-align: center;
+    }
+
+    .detail-product .price {
+        font-size: 20px;
+    }
+
+    .detail-product .slider-gallery {
+        display: none;
+    }
+
+    .detail-product .more-prod {
+        padding: 0 50px;
+        margin: 50px 0;
+    }
+
+    /*========LAYOUT GALLERY=====*/
+    .gallery .heading-img {
+        margin: 0;
+        margin-top: 200px;
+        height: 340px;
+        padding: 0;
+    }
+
+    .gallery .slider-gallery {
+        display: none;
+    }
+
+    .gallery .slide-gallery-mobile {
+        display: block;
+    }
+
+    .gallery .slide-gallery-mobile {
+        margin: 0;
+    }
+
+    .gallery .gallery-list {
+        margin: 0 20px;
+    }
+
+    .gallery .sub-form,
+    .gallery .sub-img {
+        display: none;
+    }
+
+    .gallery .sub-form-mobile {
+        display: block;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    .gallery .sub-form-mobile button {
+        width: 150px;
+        padding: 0;
+        background-color: #75A197;
+        color: white;
+        height: 34px;
+        position: relative;
+    }
+/*=======LAYOUT CONTACT=====*/
+   .contact .img-phone,
+    .contact .img-contact {
+        display: none;
+    }
+
+    .contact .banner {
+        height: 240px;
+        margin-top: 0;
+    }
+
+    .contact .intro {
+        margin: 30px 20px;
+    }
+
+    .contact .phone {
+        margin: 0 20px;
+    }
+/*=======LAYOUT LOG-IN=====*/
+    .log-in .title-form{
+        margin-left: 0;
+    }
+    .log-in form{
+        text-align: center;
+    }
+    
+/*======LAYOUT REGISTER======*/
+    .register {
+        margin: 0;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+/*=====LAYOUT CHECKOUT-SUCCESS=====*/
+    .checkout-success {
+        padding: 100px 0;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    /*=========LAYOUT HOME*/
-    /*=========LAYOUT PRODUCT*/
-    /*=========LAYOUT GALLERY*/
-    /*=========LAYOUT DETAIL-PRODUCT*/
-    /*=========LAYOUT LOG_IN*/
-    /*=========LAYOUT REGISTER*/
-    /*=========LAYOUT CHECKOUT*/
-    /*=========LAYOUT PAYMENT*/
-    /*=========LAYOUT CHECKOUT NOTI*/
-    /*=========LAYOUT CONTACT*/
-    /*=========LAYOUT PROFILE*/
-    /*=========LAYOUT INFO-ORDER*/
+@media (min-width: 1200px){
+/*======LAYOUT HOME======*/
+    .home .content{
+        margin: 0;
+    }
+    .home .product .left{
+        top: -241px;
+    }
+    .home .gallery{
+        margin: 0;
+        padding: 10px;
+    }
 }

@@ -111,12 +111,26 @@
                 <div><img src="img/gallery5.jpg"></div>
                 <div><img src="img/gallery5.jpg"></div>
             </div>
+            <div class="one-time slide-gallery-mobile">
+                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                    <div><a href="gallery.html"><img src="img/gallery3.jpg"></a></div>
+                </div>
         </div>
         <div class="row gallery-sub container">
             <form class="col-md-11 sub-form form-inline">
                 <h6>Để nhận thông báo về bộ sưu tập mới, vui lòng điền email vào ô dưới</h6>
                 <input type="email" class="form-control " id="follow" placeholder="Điền email vào đây...">
                 <button type="submit" class="btn btn-default form-follow">Gửi</button>
+            </form>
+             <form class="row form-group sub-form-mobile">
+                <h6>Để nhận thông báo về bộ sưu tập mới, vui lòng điền email vào ô dưới</h6>
+                <div class="form-inline">
+                    <input type="email" class="form-control" id="follow" placeholder="Điền email vào đây...">
+                    <button type="submit" class="btn btn-default form-follow">Gửi</button>
+                </div>
             </form>
             <img src="img/submit-form.jpg" class="col-md-1 sub-img">
         </div>
@@ -137,12 +151,12 @@
     </footer>
 
     <script type="text/javascript">
-        $('.slider').slick({
-            slidesToShow: 3,
-            slidesToScroll: 3,
+      $('.one-time').slick({
             dots: true,
             infinite: true,
-            cssEase: 'linear'
+            speed: 300,
+            slidesToShow: 3,
+            adaptiveHeight: true
         });
     </script>
 

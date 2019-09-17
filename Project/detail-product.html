@@ -61,7 +61,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-user-o " aria-hidden="true "></i> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="log-in.html">Đăng nhập</a></li>
-                            <li><a href="register.html" >Đăng ký</a></li>
+                            <li><a href="register.html">Đăng ký</a></li>
                         </ul>
                     </li>
                     <li><a href="cart.html"><i class="fa fa-shopping-basket" aria-hidden="true "></i></a></li>
@@ -86,7 +86,7 @@
         </div>
         <h2 class="title">Mochi & Oreo</h2>
         <div class="row detail">
-            <div class="col-md-6 img-detail">
+            <div class="col-md-6 col-xs-12 img-detail">
                 <div class="main">
                     <div class="slider slider-for img-max">
                         <div>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 info-detail">
+            <div class="col-md-6 col-xs-12 info-detail">
                 <h4 class="price">300.000 vnđ</h4>
                 <div class="info">
                     <p>Thành phần: Len Cotton, Bông hoá học, Mắt thú an toàn,...</p>
@@ -152,22 +152,29 @@
                 <div><img src="img/gallery5.jpg"></div>
                 <div><img src="img/gallery5.jpg"></div>
             </div>
+            <div class="one-time slide-mobile">
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery3.jpg"></a></div>
+            </div>
         </div>
     </div>
     <footer class=" footer page-footer container-fluid">
-            <!-- Social -->
-            <div class="row social">
-                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-            <!-- Copyright -->
-            <div class="row footer-copyright text-center py-3 ">© 2019 Bản quyền thuộc
-                <a href="https://mdbootstrap.com/education/bootstrap/"> Conngauuhandmade </a>
-            </div>
-            <!-- Copyright -->
+        <!-- Social -->
+        <div class="row social">
+            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <!-- Copyright -->
+        <div class="row footer-copyright text-center py-3 ">© 2019 Bản quyền thuộc
+            <a href="https://mdbootstrap.com/education/bootstrap/"> Conngauuhandmade </a>
+        </div>
+        <!-- Copyright -->
 
-            <!-- Footer -->
-        </footer>
+        <!-- Footer -->
+    </footer>
 
     <script type="text/javascript">
         $('.slider1').slick({
@@ -176,6 +183,13 @@
             dots: true,
             infinite: true,
             cssEase: 'linear'
+        });
+        $('.one-time').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            adaptiveHeight: true
         });
     </script>
     <script type="text/javascript">

@@ -32,11 +32,9 @@
       box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
   }
 */
-/*
-div{
-    border: 1px dotted red;
-}
-*/
+  div {
+      border: 1px dotted red;
+  }
 
   .clearAll {
       clear: both;
@@ -227,7 +225,7 @@ div{
   }
 
   .home button.form-follow {
-      width: 100px;
+      width: 120px;
       background-color: #75A197;
       color: white;
       height: 40px;
@@ -252,11 +250,15 @@ div{
   .home .slide-gallery {
       border-bottom: 1px solid #1C3436;
       padding-bottom: 30px;
-}
+  }
 
   .home .gallery .slider-gallery img {
       width: 195px;
       padding: 10px;
+  }
+
+  .home .gallery .slide-mobile {
+      display: none;
   }
 
   .content .breadcrumb {
@@ -403,16 +405,12 @@ div{
   .register .title-form {
       color: #7D9A93;
       font-size: 16px;
-      padding: 10px 20px 10px 10px;
+      padding: 10px 20px 10px 20px;
       border-bottom: 1px solid #905D4A;
   }
 
-  .register .form-reg label {
-      padding: 0;
-  }
-
   .register .login-form {
-      margin-top: 45px;
+      margin-top: 40px;
       padding-bottom: 50px;
   }
 
@@ -819,6 +817,10 @@ div{
   .gallery .sub-img {
       width: 200px;
       padding-right: 0;
+  }
+
+  .gallery .sub-form-mobile {
+      display: none;
   }
 
   /*---------LAYOUT PRODUCT----------*/
