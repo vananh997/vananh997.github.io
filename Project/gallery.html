@@ -112,12 +112,12 @@
                 <div><img src="img/gallery5.jpg"></div>
             </div>
             <div class="one-time slide-gallery-mobile">
-                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
-                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
-                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
-                    <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
-                    <div><a href="gallery.html"><img src="img/gallery3.jpg"></a></div>
-                </div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery4.jpg"></a></div>
+                <div><a href="gallery.html"><img src="img/gallery3.jpg"></a></div>
+            </div>
         </div>
         <div class="row gallery-sub container">
             <form class="col-md-11 sub-form form-inline">
@@ -125,7 +125,7 @@
                 <input type="email" class="form-control " id="follow" placeholder="Điền email vào đây...">
                 <button type="submit" class="btn btn-default form-follow">Gửi</button>
             </form>
-             <form class="row form-group sub-form-mobile">
+            <form class="row form-group sub-form-mobile">
                 <h6>Để nhận thông báo về bộ sưu tập mới, vui lòng điền email vào ô dưới</h6>
                 <div class="form-inline">
                     <input type="email" class="form-control" id="follow" placeholder="Điền email vào đây...">
@@ -151,7 +151,14 @@
     </footer>
 
     <script type="text/javascript">
-      $('.one-time').slick({
+        $('.slider').slick({
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            dots: true,
+            infinite: true,
+            cssEase: 'linear'
+        });
+        $('.one-time').slick({
             dots: true,
             infinite: true,
             speed: 300,

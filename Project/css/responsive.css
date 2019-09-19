@@ -39,19 +39,21 @@
     .home .product div {
         padding-right: 0;
         padding-left: 0;
+        width: 482px;
+        margin-left: 6%;
     }
 
     .home .product .item2 {
         top: 25px;
+        padding-left: 0;
     }
 
     .home .product .right {
-        width: 502px;
-        top: 50px;
+        margin-top: 30px;
     }
 
     .home .product .left {
-        width: 502px;
+        width: 482px;
         top: 75px;
     }
 
@@ -185,6 +187,10 @@
     }
 
     /*=========LAYOUT LOGIN=====*/
+    .log-in label{
+        line-height: 2.6;
+    }
+
     .log-in .img-login {
         display: none;
     }
@@ -289,21 +295,12 @@
         margin: 0;
     }
 
-    .home .product .item2,
-    .home .product .item1 {
-        padding-right: 0;
-    }
-
     .home .product {
         padding: 10px 100px;
     }
 
-    .home .product .item1 {
-        padding-right: 10px;
-    }
-
-    .home .product .item2 {
-        padding-left: 10px;
+    .home .product .item1, .home .product .item2 {
+        padding: 0;
     }
 
     .home .product .right {
@@ -405,8 +402,9 @@
         height: 34px;
         position: relative;
     }
-/*=======LAYOUT CONTACT=====*/
-   .contact .img-phone,
+
+    /*=======LAYOUT CONTACT=====*/
+    .contact .img-phone,
     .contact .img-contact {
         display: none;
     }
@@ -423,36 +421,64 @@
     .contact .phone {
         margin: 0 20px;
     }
-/*=======LAYOUT LOG-IN=====*/
-    .log-in .title-form{
+
+    /*=======LAYOUT LOG-IN=====*/
+    .log-in .title-form {
         margin-left: 0;
     }
-    .log-in form{
+
+    .log-in form {
         text-align: center;
     }
-    
-/*======LAYOUT REGISTER======*/
+
+    /*======LAYOUT REGISTER======*/
     .register {
         margin: 0;
         padding-top: 70px;
         padding-bottom: 20px;
     }
-/*=====LAYOUT CHECKOUT-SUCCESS=====*/
+
+    /*=====LAYOUT CHECKOUT-SUCCESS=====*/
     .checkout-success {
         padding: 100px 0;
     }
+
+    /*=======LAYOUT PAYMENT======*/
+    .payment {}
 }
 
-@media (min-width: 1200px){
-/*======LAYOUT HOME======*/
-    .home .content{
+@media (min-width: 1200px) {
+
+    /*======LAYOUT HOME======*/
+    .home .content {
         margin: 0;
     }
-    .home .product .left{
+
+    .home .product .left {
         top: -241px;
     }
-    .home .gallery{
+
+    .home .gallery {
         margin: 0;
         padding: 10px;
+    }
+
+    /*=======LAYOUT GALLERY=====*/
+    .gallery .slide-gallery-mobile {
+        display: none;
+    }
+
+    .gallery .slider-gallery {
+        margin: 0;
+    }
+
+    /*=======LAYOUT DETAIL-PRODUCT=======*/
+    .detail-product .slide-mobile {
+        display: none;
+    }
+
+    /*========LAYOUT LOG-IN======*/
+    .log-in .button-form {
+        margin-left: 20%
     }
 }
