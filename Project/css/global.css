@@ -32,9 +32,11 @@
       box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
   }
 */
+/*
 div{
     border: 1px dotted black;
 }
+*/
   .clearAll {
       clear: both;
   }
@@ -611,7 +613,7 @@ div{
   .contact .banner {
       height: 400px;
       margin-top: 80px;
-      background-image: url('../img/banner-home.png');
+      background-image: url('../img/');
       background-size: cover;
   }
 
