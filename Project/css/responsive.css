@@ -23,6 +23,10 @@
     }
 
     /*========== LAYOUT HOME=========*/
+    .home .banner {
+        background-image: none;
+    }
+
     .home .intro .fig,
     .home .intro .des {
         text-align: center;
@@ -187,7 +191,7 @@
     }
 
     /*=========LAYOUT LOGIN=====*/
-    .log-in label{
+    .log-in label {
         line-height: 2.6;
     }
 
@@ -291,6 +295,10 @@
 @media (max-width: 992px) {
 
     /*====LAYOUT HOME=====*/
+    .home .banner {
+        background-image: none;
+    }
+
     .home .content {
         margin: 0;
     }
@@ -299,7 +307,8 @@
         padding: 10px 100px;
     }
 
-    .home .product .item1, .home .product .item2 {
+    .home .product .item1,
+    .home .product .item2 {
         padding: 0;
     }
 
