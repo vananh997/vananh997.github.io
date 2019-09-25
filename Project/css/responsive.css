@@ -1,35 +1,3 @@
-@media (min-width: 320px) {
-    body {
-        font-size: 20px;
-    }
-
-    .header.navbar-default .navbar-nav > li > a,
-    .header.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        font-size: 22px;
-    }
-    .header.navbar-default{
-        height: 50px;
-        display: block;
-    }
-
-    /*========LAYOUT HOME======*/
-    .home .intro {
-        margin-top: -200px;
-    }
-
-    .home .intro .des {
-        margin-top: 100px;
-    }
-
-    .home .content .gallery {
-        margin-top: 5px;
-        margin-bottom: 190px;
-    }
-  .home .sub-form input {
-        
-    }
-}
-
 @media (max-width: 768px) {
 
     .header.navbar-default .navbar-nav > .active > a,
