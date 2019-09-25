@@ -450,9 +450,6 @@
     .checkout-success {
         padding: 100px 0;
     }
-
-    /*=======LAYOUT PAYMENT======*/
-    .payment {}
 }
 
 @media (min-width: 1200px) {
@@ -488,5 +485,21 @@
     /*========LAYOUT LOG-IN======*/
     .log-in .button-form {
         margin-left: 20%
+    }
+
+    /*========LAYOUT REGISTER======*/
+    .register{
+        margin-top: 100px;
+    }
+    .register .button-regis{
+        display: flex;
+        justify-content: center;
+    }
+    .register h6{
+        margin-left: 90px;
+    }
+/*======LAYOUT LOG-IN======*/
+    .log-in{
+        margin-top: 50px;
     }
 }
