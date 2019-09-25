@@ -15,6 +15,7 @@
 
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
 
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css " rel="stylesheet " integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN " crossorigin="anonymous ">
     <link rel="stylesheet " href="css/global.css ">
     <link rel="stylesheet" href="css/responsive.css">
@@ -91,33 +93,52 @@
         </div>
 
         <div class="row gallery-list">
-            <div class="slider slider-gallery">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Seika little Cat" href="img/5.jpg"><img src="img/5.jpg" alt="Ảnh 1"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Little Tiger" href="img/3.jpg"><img src="img/3.jpg" alt="Ảnh 2"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Little Cat" href="img/10.jpg"> <img src="img/10.jpg" alt="Ảnh 3"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Red Panda" href="img/2.jpg"> <img src="img/2.jpg" alt="Ảnh 4"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Little Bear and Pig" href="img/6.jpg"> <img src="img/6.jpg" alt="Ảnh 5"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Little Bunny" href="img/7.jpg"> <img src="img/7.jpg" alt="Ảnh 6"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Fan fan duck" href="img/gallery2.jpg"> <img src="img/gallery2.jpg" alt="Ảnh 7"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Unicorn" href="img/register.jpg"> <img src="img/register.jpg" alt="Ảnh 8"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a data-fancybox="gallery" data-caption="Clothes for Mochi" href="img/gallery1.jpg"> <img src="img/gallery1.jpg" alt="Ảnh 9"></a>
+                </div>
+            </div>
 
-                <div><img src="img/gallery6.jpg"></div>
-                <div><img src="img/gallery1.jpg"></div>
-                <div><img src="img/gallery7.jpg"></div>
-                <div><img src="img/gallery8.jpg"></div>
-                <div><img src="img/gallery5.jpg"></div>
-                <div><img src="img/gallery6.jpg"></div>
-                <div><img src="img/gallery2.jpg"></div>
-            </div>
-            <div class="slider slider-gallery">
-
-                <div><img src="img/item1-Mimi&Miti.jpg"></div>
-                <div><img src="img/contact1.jpg"></div>
-                <div><img src="img/contact2.jpg"></div>
-                <div><img src="img/gallery1.jpg"></div>
-                <div><img src="img/register.jpg"></div>
-                <div><img src="img/item5-picapau.jpg"></div>
-                <div><img src="img/anh_dangky.jpg"></div>
-            </div>
-            <div class="one-time slide-gallery-mobile">
-                <div><a href="gallery.html"><img src="img/gallery6.jpg"></a></div>
-                <div><a href="gallery.html"><img src="img/gallery7.jpg"></a></div>
-                <div><a href="gallery.html"><img src="img/gallery8.jpg"></a></div>
-                <div><a href="gallery.html"><img src="img/gallery1.jpg"></a></div>
-                <div><a href="gallery.html"><img src="img/gallery3.jpg"></a></div>
-            </div>
         </div>
         <div class="row gallery-sub container">
             <form class="col-md-11 sub-form form-inline">
@@ -149,25 +170,11 @@
 
         <!-- Footer -->
     </footer>
-
-    <script type="text/javascript">
-        $('.slider').slick({
-            slidesToShow: 5,
-            slidesToScroll: 5,
-            dots: true,
-            infinite: true,
-            cssEase: 'linear'
-        });
-        $('.one-time').slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 3,
-            adaptiveHeight: true
+    <script>
+        $(document).ready(funtion() {
+            $('.gallery .gallery-list .thumbnail a').fancybox();
         });
     </script>
-
-
 </body>
 
 </html>

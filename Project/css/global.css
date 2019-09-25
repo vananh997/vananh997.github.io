@@ -3,7 +3,11 @@
       padding: 0;
       font-family: 'Varela Round', sans-serif;
       color: #1C3436;
-      font-size: 14px;
+      font-size: 16px;
+  }
+
+  .title {
+      font-size: 22px;
   }
 
   img {
@@ -32,11 +36,13 @@
       box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
   }
 */
-  /*
-div{
-    border: 1px dotted black;
-}
+
+/*
+  div {
+      border: 1px dotted black;
+  }
 */
+
   .clearAll {
       clear: both;
   }
@@ -146,7 +152,7 @@ div{
 
   .banner {
       background-color: #d2e6de;
-      margin-top: 95px;
+      margin-top: 75px;
       height: 350px;
       position: relative;
       text-align: center;
@@ -157,6 +163,7 @@ div{
   .home .banner {
       background-image: url('../img/banner-home.png');
   }
+
   .home .banner img {
       max-height: 190px;
       margin-top: -50px;
@@ -169,13 +176,14 @@ div{
   .home .intro .fig img {
       max-height: 420px;
       position: relative;
-      top: -120px;
+      top: -30px;
   }
 
   .home .intro .des {
       text-align: left;
       position: relative;
-      top: 90px;
+      top: 80px;
+      line-height: 2;
   }
 
   .home .intro:after {
@@ -212,7 +220,8 @@ div{
 
   .home .title-info {
       position: relative;
-      top: -140px;
+      top: -160px;
+      font-size: 14px;
   }
 
   .home .sub-form {
@@ -220,6 +229,12 @@ div{
       background: #f5ebe4;
       height: 200px;
       padding-top: 5%;
+      margin-top: -80px;
+      margin-bottom: 60px;
+  }
+
+  .home .sub-form h6 {
+      font-size: 14px;
   }
 
   .home .form-inline {
@@ -283,7 +298,7 @@ div{
 
   ul.breadcrumb li {
       display: inline;
-      font-size: 14px;
+      font-size: 15px;
   }
 
   ul.breadcrumb li + li:before {
@@ -320,7 +335,6 @@ div{
       color: #75A197;
   }
 
-
   /*---------------------LAYOUT DETAIL-PRODUCT-----*/
   .detail-product .banner {
       height: 400px;
@@ -339,11 +353,13 @@ div{
 
   .detail-product .price {
       color: #905D4A;
-      font-size: 15px;
+      font-size: 16px;
       text-align: left;
       padding-left: 20px;
   }
-
+.detail-product .note{
+    font-size: 14px;
+}
   .detail-product .info {
       margin-top: 20px;
       text-align: left;
@@ -356,6 +372,7 @@ div{
       height: 28px;
       border: none;
       padding: 15px;
+      margin-left: 18px;
       text-align: center;
   }
 
@@ -364,7 +381,7 @@ div{
       border: none;
       color: white;
       margin-top: 15px;
-      width: 150px;
+      width: 180px;
       height: 30px;
   }
 
@@ -390,7 +407,7 @@ div{
 
   /*-----------LAYOUT REGISTER---------*/
   .register {
-      margin-top: 130px;
+      margin-top: 50px;
   }
 
   .register .img-reg {
@@ -430,8 +447,7 @@ div{
   /*-------------LAYOUT LOG-IN-----------*/
 
   .log-in {
-      padding-top: 100px;
-      padding-bottom: 120px;
+      padding-top: 50px;
   }
 
   .log-in .title-form {
@@ -599,13 +615,17 @@ div{
       margin-top: 50px;
       border: 1px solid #905D4A;
       border-radius: 2px;
-      padding: 80px 50px;
+      padding: 40px 50px;
       border-left: none;
 
   }
 
   .payment .payment-list .list {
       margin-bottom: 30px;
+  }
+
+  .payment .payment-list .list i {
+      font-size: 14px;
   }
 
   .payment .payment-list .list div:nth-child(1) {
@@ -630,11 +650,11 @@ div{
   }
 
   .contact .intro {
-      margin-top: 50px;
+      margin-top: 10px;
       margin-left: 50px;
       text-align: right;
       background: #d2e6de;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
   }
 
   .contact .intro img {
@@ -678,16 +698,17 @@ div{
   .contact .phone-contact {
       padding-left: 30px;
       text-align: left;
+      padding-top: 10px;
   }
 
 
   /*------- LAYOUT CART-------*/
   .cart {
-      padding-top: 80px;
+      padding-top: 70px;
   }
 
   .cart .title {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
   }
 
   .cart .item {
@@ -695,8 +716,12 @@ div{
       align-items: center;
       display: flex;
       border-bottom: 1px solid #905D4A;
-      padding-bottom: 30px;
       text-align: center;
+  }
+
+  .cart .row {
+      margin-top: 10px;
+      padding-bottom: 5px;
   }
 
   .cart .item i:hover {
@@ -776,20 +801,6 @@ div{
       color: #1C3436;
   }
 
-  .gallery .slider-gallery {
-      margin-left: 100px;
-      margin-right: 100px;
-  }
-
-  .gallery .slider-gallery img {
-      padding: 0 20px;
-  }
-
-  .gallery .slick-next::before,
-  .slick-prev::before {
-      color: #905D4A;
-  }
-
   .gallery .gallery-list {
       border-bottom: 1px solid #905D4A;
       border-top: 1px solid #905D4A;
@@ -808,6 +819,10 @@ div{
       width: 500px;
       margin-left: 220px;
       padding-top: 50px;
+  }
+
+  .gallery .sub-form h6 {
+      font-size: 14px;
   }
 
   .gallery .sub-form .form-follow {
@@ -855,16 +870,16 @@ div{
   }
 
   .product .filter-select {
-      background: #d2e6de;
       margin: 5px;
   }
 
   .product .control-label {
       padding: 12px;
+      margin-right: -30px;
   }
 
-  .product .item {
-      margin-bottom: 30px;
+  .product .item-product {
+      margin-bottom: 50px;
   }
 
   .product .item-name > a {
@@ -880,6 +895,8 @@ div{
   .product .item-page li {
       padding: 5px;
   }
+
+  /*-----------LAYOUT MORE-ORDER--------*/
 
 
   /* ---------------------Footer -------*/
