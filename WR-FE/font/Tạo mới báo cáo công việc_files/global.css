@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+}
+
+
+/*---Header---*/
+
+.headerWr {
+    background-color: #116aca;
+}
+
+.headerWr .navbar {
+    flex-wrap: none;
+}
+
+
+/*=======LAYOUT REPORT=======*/

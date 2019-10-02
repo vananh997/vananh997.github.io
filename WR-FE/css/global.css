@@ -1,0 +1,144 @@
+@import url("reset.css");
+
+body {
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #eee;
+    line-height: 1.5;
+}
+
+.btnDelete {
+/*
+    background: #ff8a7b !important;
+    color: white;
+*/
+    padding: 7px 15px;
+    box-shadow: none;
+    border-radius: 40px;
+}
+
+.btnAdd {
+/*
+    background: #53a93fdb !important;
+    color: white;
+*/
+    padding: 7px 15px;
+    box-shadow: none;
+    border-radius: 40px;
+}
+
+/*---Header---*/
+
+.headerWr {
+    background-color: #116aca;
+    padding: 0 25px;
+    min-height: 48px;
+}
+
+.headerWr .navbar-brand {
+    line-height: 40px;
+}
+
+.headerWr .accountWr {
+    padding: 0 30px;
+    line-height: 25px;
+}
+
+.headerWr .accountWr .dropdown-menu {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.headerWr .accountWr .dropdown-toggle {
+    color: white;
+    display: inline;
+}
+
+.headerWr .accountWr .avatar {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 29px;
+    height: 29px;
+}
+
+
+/*-----Side-bar----- */
+
+.sidebar {
+    background: #fff;
+    height: 100vh;
+    z-index: 1;
+    padding: 0;
+    left: 0;
+}
+
+.sidebar ul {
+    padding: 0;
+
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    display: block;
+    line-height: 60px;
+    height: 60px;
+    margin: 0 15px;
+}
+
+.sidebar .menuDropdown {
+    border-left: 1px solid black;
+}
+
+.sidebar .menuDropdown i {
+    margin-right: 8px;
+}
+
+.sidebar ul a,
+.sidebar ul span {
+    color: #737373;
+    padding: 0 16px 0 7px;
+    text-decoration: none;
+}
+
+.sidebar ul li a span:hover,
+.sidebar ul li:hover {
+    color: #262626;
+    background: #fbfbfb;
+}
+
+/*=======LAYOUT REPORT======*/
+.report .content {
+    text-align: center;
+}
+.report .content .pageReport .title {
+    padding: 30px 0;
+}
+
+.report .content .pageReport .reportFilter {
+    padding-bottom: 20px;
+}
+
+.report .filterLastProject .btnFilterProject {
+    border-radius: 40px;
+    box-shadow: none;
+    padding: 7px 15px;
+    margin-left: 0;
+    float: left;
+}
+
+.report .filterLastProject span {
+    text-align: right;
+}
+
+.report .tableReport {
+    background: white;
+    overflow-y: hidden;
+    text-align: center;
+}
+.report .tableReport thead tr {
+    background: #56b5e3;
+    color: white;
+}

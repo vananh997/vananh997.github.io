@@ -1,0 +1,88 @@
+/*----INPUT----*/
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=time] {
+    border: 1px solid #d5d5d5;
+    box-shadow: none;
+}
+
+.table th,
+.btnComment {
+    padding: 5px;
+}
+
+.table thead th,
+.table td {
+    vertical-align: middle;
+}
+
+.table td i {
+    padding: 0;
+}
+
+button {
+    margin-right: 5px;
+}
+
+caption {
+    text-align: center;
+}
+
+
+/*======TOGGLE====*/
+.cmn-toggle {
+    visibility: hidden;
+    position: absolute;
+}
+
+.cmn-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    margin: 0;
+    left: 22%;
+}
+
+input.cmn-toggle-round + label {
+    text-align: center;
+    width: 55px;
+    height: 28px;
+    background-color: #dddddd;
+    border-radius: 60px;
+}
+
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input.cmn-toggle-round + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+
+input.cmn-toggle-round + label:after {
+    width: 25px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin 0.4s;
+}
+
+input.cmn-toggle-round:checked + label:before {
+    background-color: #8ce196;
+}
+
+input.cmn-toggle-round:checked + label:after {
+    margin-left: 30px;
+}
