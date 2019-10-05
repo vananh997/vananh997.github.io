@@ -1,3 +1,4 @@
+
 @media (max-width: 768px) {
 
     .header.navbar-default .navbar-nav > .active > a,
@@ -33,7 +34,7 @@
     }
 
     .home .intro .des {
-        top: -90px;
+        top: 30px;
     }
 
     .home .content {
