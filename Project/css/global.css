@@ -27,7 +27,9 @@
       color: white;
   }
 
-
+img:hover{
+    cursor: pointer;
+}
   /*
   .content {
       background: white;
@@ -257,7 +259,7 @@
   .home .gallery {
       height: 350px;
       text-align: center;
-      margin-top: 200px;
+      margin-top: 100px;
   }
 
   .home .gallery .slider {
