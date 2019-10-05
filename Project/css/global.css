@@ -645,6 +645,7 @@ img:hover{
       margin-top: -20px;
       background-image: url('../img/banner-contact.png');
       background-size: cover;
+      background-position: center;
   }
 
   .contact .img-contact {
@@ -861,6 +862,7 @@ img:hover{
       margin-top: 80px;
       background-image: url('../img/banner-product.jpg');
       background-size: cover;
+      background-position: center;
   }
 
   .product .filter {
