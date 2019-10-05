@@ -779,6 +779,7 @@ img:hover{
       margin-top: 80px;
       background-image: url('../img/banner-gallery.jpg');
       background-size: cover;
+      background-position: center;
   }
 
   .gallery .heading-img {
